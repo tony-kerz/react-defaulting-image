@@ -1,0 +1,19 @@
+{
+  "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+  "testFileExtensions": [
+    "js"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "jsx"
+  ],
+  "unmockedModulePathPatterns": [
+    "<rootDir>/node_modules/debug",
+    "<rootDir>/node_modules/lodash",
+    "<rootDir>/node_modules/react",
+    "<rootDir>/node_modules/react-dom",
+    "<rootDir>/node_modules/react-addons-test-utils",
+    "<rootDir>/node_modules/fbjs",
+    "<rootDir>/node_modules/json-stringify-safe"
+  ]
+}
