@@ -1,6 +1,6 @@
 {
   "name": "react-defaulting-image",
-  "version": "1.0.0",
+  "version": "0.9.9",
   "description": "image with default",
   "main": "dist/index.js",
   "repository": {
@@ -8,12 +8,13 @@
     "url": "https://github.com/tony-kerz/react-defaulting-image.git"
   },
   "scripts": {
-    "jest": "jest -o -c .jestrc",
+    "jest": "jest -c .jestrc",
     "premocha": "npm run jest",
     "mocha": "mocha --recursive --compilers js:babel-core/register",
     "preava": "npm run mocha",
     "ava": "ava ./ava",
-    "prebuild": "npm run ava",
+    "test": "npm run ava",
+    "prebuild": "npm run test",
     "build": "webpack --config webpack/webpack.prod.config.js"
   },
   "author": "",
