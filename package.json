@@ -1,6 +1,6 @@
 {
   "name": "react-defaulting-image",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "image with default",
   "main": "dist/index.js",
   "repository": {
