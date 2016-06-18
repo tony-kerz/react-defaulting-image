@@ -1,6 +1,6 @@
 import debug from 'debug'
 import React, {Component} from 'react'
-const dbg = debug('react-defaulting-image')
+const dbg = debug('rdi')
 
 export default class extends Component {
 
