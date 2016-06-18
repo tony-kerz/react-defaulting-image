@@ -15,7 +15,8 @@
     "ava": "ava ./ava",
     "test": "npm run ava",
     "prebuild": "npm run test",
-    "build": "webpack --config webpack/webpack.prod.config.js"
+    "build": "webpack --config webpack/webpack.dev.config.js",
+    "build-prod": "webpack --config webpack/webpack.prod.config.js -p"
   },
   "author": "",
   "license": "ISC",
