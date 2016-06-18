@@ -2,12 +2,13 @@ language: node_js
 node_js:
 - '6'
 before_install:
-  - echo "before-install: travis-branch=$TRAVIS_BRANCH, travis-commit=$TRAVIS_COMMIT, travis-tag=$TRAVIS_TAG, travis-pr=$TRAVIS_PULL_REQUEST"
+  - echo 'before-install:'
 before_deploy:
-  - echo "before-deploy:"
-  - echo "src:"
+  - echo 'before-deploy:'
+  - echo travis-tag=$TRAVIS_TAG
+  - echo src
   - ls -lR src
-  - echo "dist:"
+  - echo dist
   - ls -lR dist
 deploy:
   provider: npm
