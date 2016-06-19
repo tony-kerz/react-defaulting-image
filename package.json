@@ -1,6 +1,6 @@
 {
   "name": "react-defaulting-image",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "image with default",
   "main": "dist/index.js",
   "repository": {
@@ -16,7 +16,7 @@
     "test": "npm run ava",
     "prebuild": "npm run test",
     "build": "webpack --config webpack/webpack.dev.config.js",
-    "build-prod": "webpack --config webpack/webpack.prod.config.js -p"
+    "build-prod": "webpack --config webpack/webpack.prod.config.js"
   },
   "author": "",
   "license": "ISC",
